@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 10px;
+  margin: 0;
   background: #fffffc;
 }
 
@@ -170,10 +170,28 @@ nav li:nth-child(1):hover {
   .picture > img {
     height: 200px;
   }
+
+  .keywords p {
+    font-size: 62px;
+  }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 460px) {
+  .picture > img {
+    height: 175px;
+  }
+
+  .keywords p {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 321px) {
   .picture > img {
     height: 150px;
+  }
+
+  .keywords p {
+    font-size: 40px;
   }
 }
