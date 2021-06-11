@@ -202,6 +202,11 @@ nav li:nth-child(1):hover {
   .keywords p {
     font-size: 62px;
   }
+
+  .skills-container .skills img {
+    max-height: 40px;
+    padding: 0 5px 20px 5px;
+  }
 }
 
 @media screen and (max-width: 460px) {
