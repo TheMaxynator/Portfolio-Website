@@ -111,6 +111,10 @@ nav li:nth-child(1):hover {
   white-space: pre;
 } */
 
+.skills-container {
+  padding: 0 25px 0 25px;
+}
+
 .skills-container h1 {
   padding: 10px 0 10px 0;
   text-align: center;
