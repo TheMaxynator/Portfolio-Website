@@ -47,6 +47,7 @@ li.aboutmenav:hover,
 li.skills:hover,
 li.portfolio:hover {
   border-bottom-style: solid;
+  border-color: black;
   cursor: pointer;
 }
 
