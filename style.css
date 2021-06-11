@@ -111,6 +111,30 @@ nav li:nth-child(1):hover {
   white-space: pre;
 } */
 
+.skills-container h1 {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.skills-container .skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.skills-container .skills img {
+  max-height: 50px;
+  flex-basis: 300px;
+  padding: 0 0 20px 0;
+}
+
+.skills-container .skills .skills-top-row,
+.skills-container .skills .skills-bottom-row {
+  display: flex;
+  justify-content: center;
+  flex-basis: 400px;
+}
+
 /* About Me Section */
 .aboutme {
   background-color: aliceblue;
