@@ -150,15 +150,15 @@ nav li:nth-child(1):hover {
 }
 
 /* About Me Section */
-.aboutme {
+.aboutme-container {
   background-color: aliceblue;
 }
 
-.aboutme > h1 {
+.aboutme-container > h1 {
   padding: 10px 0 10px 25px;
 }
 
-.aboutme-container {
+.aboutme {
   display: flex;
   flex-wrap: wrap;
 }
