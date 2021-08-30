@@ -15,6 +15,7 @@ html {
 }
 
 /* Set initial pixel sizes and use relative units (rem and em) in the rest of the CSS */
+/* UPDATE 13-06, don't force the standard font-sizes, this takes away the user's freedom to set their own accessibilty settings */
 /* @media screen and (min-width: 900px) {
   html {
     font-size: 18px;
